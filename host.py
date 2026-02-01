@@ -2,8 +2,6 @@ from socket import *
 from pickle import *
 import numpy as np
 from struct import *
-
-# 1. Back to your original setup
 global_model_weights = np.zeros(16384) 
 NUM_Partticipants = int(input("number of participants pooling : "))
 connected_workers = []
